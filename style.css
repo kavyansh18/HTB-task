@@ -185,8 +185,92 @@ body{
 
 .footer{
     width: 100vw;
-    height: 200px;
+    height: 210px;
     background-color: rgb(19,19,19);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logobox img{
+    padding: 40px;
+    width: 120px;
+    margin-left: 15px;
+}
+
+.t{
+    color:rgb(159, 239, 0);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Poppins, sans-serif; 
+    margin-bottom: 35px;
+}
+
+.sh{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sh img{
+    padding: 5px;
+    border-radius: 50%;
+}
+.sh img:hover{
+    background-color: rgb(96, 16, 255);
+    filter: invert(1); 
+}
+
+.explore{
+    color:rgb(159, 239, 0);
+    font-family: Poppins, sans-serif; 
+    padding-left: 70px;
+}
+
+.explore div{
+    margin-bottom: 4px;
+}
+.explore div:first-child{
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.explore > *:not(:first-child){
+    cursor: pointer;
+    color: rgb(117, 175, 1);
+}
+.explore > *:not(:first-child):hover{
+    color: rgb(159, 239, 0);
+}
+
+.contact{
+        color:rgb(159, 239, 0);
+        font-family: Poppins, sans-serif; 
+        padding: 0px 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 235px;
+}
+.contact div{
+    margin-bottom: 12px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.contact div:first-child{
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.contact > *:not(:first-child){
+    cursor: pointer;
 }
 
 
@@ -195,38 +279,5 @@ body{
     body{
         overflow-x: hidden;
     }
-    .main{
-        background-size: max(1500px,100vw);
-    }
-    .h{
-        font-size: 30px;
-    }
-    .about{
-        font-size: 18px;
-    }
-    .content{
-        font-size: 12px;
-    }
-    .imginput{
-        width: 180px;
-        height: 80px;
-        position: relative;
-        top: 350px;
-    }
-    .da{
-        font-size: 18px;
-    }
-    .dac{
-        font-size: 16px;
-    }
-    p{
-        font-size: small;
-    }
-    button{
-        position: relative;
-        left: 27%;
-    }
-    .h{
-        margin-bottom: 20px;
-    }
+    
 }
