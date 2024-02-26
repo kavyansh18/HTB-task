@@ -277,7 +277,45 @@ body{
 
 @media screen and (max-width:1300px){
     body{
-        overflow-x: hidden;
+        overflow: hidden;
+    }
+    .main{
+        width: 1258px;
+        height: 2506px;
+    }
+    .footer{
+        width: 323vw;
+    }
+    .navbar img{
+        margin-right: 200px;
+    }
+    .cu{
+        width: 157px;
+  }
+    .name{
+        display: flex;
+        flex-direction: column;
+    }
+    .content1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text2{
+        width: 880px;
+    }
+    .line {
+        width: 320vw;
+    }
+    .navbar{
+        margin-bottom: 240px;
+    }
+    .photo img{
+        margin: 130px 0px;
+    }
+
+    .content2{
+        margin-bottom: 200px;
     }
     
 }
